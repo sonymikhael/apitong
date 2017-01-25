@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="<?php echo base_url('assets/plugins/datatables/dataTables.bootstrap.css');?>">
 
 
-	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url('assets/plugins/elfinder/css/elfinder.min.css'); ?>">
+	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url('assets/plugins/elFinder/css/elfinder.min.css'); ?>">
 
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.css'); ?>">
 	
