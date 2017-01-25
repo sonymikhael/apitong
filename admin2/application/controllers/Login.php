@@ -56,7 +56,7 @@ class Login extends CI_Controller {
 		//$this->debug('check_database', 'password='.$password);
 		$username = $this->input->post('username');
 	 	$result = $this->user->login($username, $password);
-
+		$this->debug('check_database', 'result=' . var_export($result, TRUE));
 	 	if($result)
 	 	{
 			$sess_array = array();
