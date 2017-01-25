@@ -31,11 +31,11 @@
 					<?php 
 					if($home === FALSE)
 					{
-						echo form_open(base_url('main_page')); 
+						echo form_open(base_url('main_page/view')); 
 					}
 					else
 					{
-						echo form_open(base_url('home_page'));
+						echo form_open(base_url('main_page/view/home'));
 					}
 					?>
 
