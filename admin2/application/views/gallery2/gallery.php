@@ -30,7 +30,7 @@
 </section>
 <!-- /.content -->
 
-<script type="text/javascript" src="<?php echo base_url('assets/plugins/elfinder/js/elfinder.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/plugins/elFinder/js/elfinder.min.js'); ?>"></script>
 <script>
 $(document).ready(function(){
 	var elf = $('#elfinder').elfinder({
