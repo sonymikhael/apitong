@@ -45,7 +45,7 @@
 						{
 							echo "<div class='form-group'>";
 							echo "<label>" . $row->content_desc . "</label>";
-							echo "<input class='form-control' id='". $row->content_desc . "' name=' " . $row->content_desc ."' value='" . $row->content . "'>";
+							echo "<input class='form-control' id='". $row->content_desc . "' name='" . $row->content_desc ."' value='" . $row->content . "'>";
 							echo "</div>";
 						}
 					?>
