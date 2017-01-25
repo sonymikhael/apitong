@@ -72,7 +72,8 @@ class Main_page extends CI_Controller {
 			$key = $row->content_desc;
 			$this->form_validation->set_rules($key, $key, 'trim|required');
 		}
-
+		$this->debug('view', 'content_desc=' . var_export($content_descs, TRUE));
+		$this->debug('view', 'input post=' . var_export($this->input->post(), TRUE));
 
 		if ($this->form_validation->run() == FALSE)
 		{
